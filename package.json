@@ -22,8 +22,8 @@
   "readmeFilename": "README",
   "gitHead": "7a52cb05aef6506eee03e5aabdcad9e988a43779",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.3.1",
-    "grunt-contrib-connect": "~0.3.0"
+    "grunt": "^1.6.2",
+    "grunt-contrib-connect": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0"
   }
 }
