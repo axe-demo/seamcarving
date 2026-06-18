@@ -22,6 +22,7 @@
   "readmeFilename": "README",
   "gitHead": "7a52cb05aef6506eee03e5aabdcad9e988a43779",
   "devDependencies": {
+    "@playwright/test": "^1.61.0",
     "grunt": "^1.6.2",
     "grunt-contrib-connect": "^5.0.1",
     "grunt-contrib-watch": "^1.1.0"
