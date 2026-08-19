@@ -8,8 +8,8 @@ jobs:
     steps:
       - name: Block non-Dependabot PRs
         run: |
-          if [ "${{ github.actor }}" != "dependabot[bot]" ]; then
-            echo "This repository only accepts PRs from Dependabot."
+          if [ "${{ github.actor }}" != "dependabot[bot]" ] && [ "${{ github.actor }}" != "axemclion" ]; then
+            echo "This repository only accepts PRs from Dependabot (or axemclion, for cases Dependabot can't auto-fix, e.g. deeply nested transitive-dependency alerts)."
             exit 1
           fi
-          echo "PR is from Dependabot, allowed."
+          echo "PR is allowed."
